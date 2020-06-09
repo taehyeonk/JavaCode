@@ -1,6 +1,6 @@
 package exam04;
 
-public class Phone {
+public abstract class Phone {
 	public String owner;
 
 	public Phone(String owner) {
@@ -14,4 +14,6 @@ public class Phone {
 	public void turnOff() {
 		System.out.println("폰 전원 off");
 	}
+	
+	public abstract void bellOn();
 }
