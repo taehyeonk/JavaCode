@@ -1,0 +1,36 @@
+@import url("reset.css");
+
+#s1 ul {
+    background-color: yellow;
+    height: 300px;
+    position: relative;
+}
+
+#s1 li:nth-child(1) {
+    background-color: red;
+}
+
+#s1 li:nth-child(2) {
+    background-color: green;
+    position: absolute;
+    position: static; /* 아무것도 안한 설정을 의미 */
+    --position: fixed;
+    --position: relative;
+    --width: 100%;
+    --height: 30px;
+    --left: 100px;
+    --top: 500px;
+    right: 0px;
+    bottom : 0px;
+}
+
+#s1 li:nth-child(3) {
+    background-color: blue;
+}
+
+#header {
+    height: 70px;
+    background-color: beige;
+    top: 0px;
+    position: sticky;
+}

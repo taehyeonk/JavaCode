@@ -1,0 +1,35 @@
+#footer {
+    height: 100px;
+    background-color: #313131; /* 뒤에 속성값 추가하면 투명도 설정 가능 */
+    padding: 20px;
+}
+
+#footer .content-box {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+
+    font-family: 맑은 고딕;
+    font-size: 1em;
+    color: #191919;
+    align-items: center;
+
+    width:960px;
+    margin:auto;
+    height: inherit;
+    padding-left: 200px;
+}
+
+#footer #company-info {
+    display: flex;
+    flex-flow: column;
+}
+
+#footer #company-info dl {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+#footer #company-info dl dd {
+    margin-right: 50px;
+}

@@ -1,0 +1,113 @@
+/* ---------- header ---------- */
+.hidden {
+    display: none;
+}
+
+#header {
+    display: block;
+    position: static;
+    padding: 0px;
+    height: 70px;
+    border-bottom: 3px solid #8cba34;
+    --background-color: yellow;
+}
+
+#header .content-box {
+    display: block;
+    position: relative;
+    margin:auto;
+    width:960px;
+    height: inherit;
+    
+    box-sizing: border-box;
+    align-items: center;
+    
+    --background-color: #00FF5580;
+}
+
+#header #logo {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 23px;
+}
+
+/* ---------- main-menu ---------- */
+#main-menu {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 23px;
+}
+
+#mainmenu > ul {
+    overflow: auto;
+}
+
+#main-menu >ul > li {
+    float: left;
+    padding-left: 24px;
+}
+
+#main-menu >ul > li:first-child {
+    padding-left: 0px;
+    background: none;
+}
+
+/* ---------- sub-menu ---------- */
+
+/* ---------- search-form ---------- */
+#search-form {
+    display: inline-block;
+    position: absolute;
+    left: 468px;
+    top: 21px;
+    border: 1px solid #8cba34;
+    overflow: auto;
+}
+
+#search-form h1, #search-form legend {
+    display: none;
+}
+
+/* ---------- account-menu ---------- */
+#account-menu {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+#account-menu > ul {
+    overflow: auto;
+}
+
+#account-menu > ul > li {
+    float: left;
+    padding-left: 9px;
+}
+
+#account-menu > ul > li:first-child {
+    padding-left: 0px;
+    background: none;
+}
+
+/* ---------- member-menu ---------- */
+#member-menu {
+    position: absolute;
+    right: 0px;
+    top:40px;
+}
+
+#member-menu > ul {
+    overflow: auto;
+}
+
+#member-menu > ul > li {
+    float: left;
+    padding-left: 9px;
+}
+
+#member-menu > ul > li:first-child {
+    padding-left: 0px;
+    background: none;
+}

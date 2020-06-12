@@ -1,0 +1,19 @@
+#visual {
+    height: 171px;
+    background-color: #31313180; /* 뒤에 두 자리 숫자를 더하면 투명도 설정 가능 */
+}
+
+#visual .content-box {
+    display: flex;
+    margin:auto;
+    width:960px;
+    height: inherit;
+    background-color: #19191980;
+
+    font-family: 맑은 고딕;
+    font-size: 6em;
+    font-weight: bold;
+
+    padding-left: 2.7em;
+    clear: #191919;
+}
