@@ -1,0 +1,6 @@
+
+6월 22, 2020 17:47:32.00 NEW SESSION
+6월 22, 2020 17:47:32.00 [4220:5264:0622/174731.976:ERROR:socket_stream.cc(218)] Closing stream with result -2
+6월 23, 2020 11:35:13.37 [4220:5264:0623/113513.372:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -105
+6월 23, 2020 11:35:14.13 [4220:4304:0623/113513.392:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 23, 2020 11:35:14.16 [4220:4304:0623/113513.399:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2

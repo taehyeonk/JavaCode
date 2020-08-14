@@ -1,0 +1,10 @@
+1592370615190	Move 'servlet-context.xml' to 'spring'
+1592370639819	Move 'root-context.xml' to 'META-INF'
+1592370650145	Delete element
+1592370706889	Delete element
+1592370713087	Delete element
+1592370799770	Move 'root-context.xml' to 'resources'
+1592370810098	Delete element
+1592370881014	Move 'spring' to 'webapp'
+1592374764961	Delete element
+1592374775018	Copy file
